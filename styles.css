@@ -1,0 +1,141 @@
+@font-face {
+  font-family: OpenSans-Light;
+  src: url(OpenSans-Light.ttf);
+}
+
+@font-face {
+  font-family: LemonMilk;
+  src: url(LemonMilk.otf);
+}
+
+@font-face {
+  font-family: OpenSans-ExtraBold;
+  src: url(OpenSans-ExtraBold.ttf);
+}
+
+body {
+  background: url("bg.jpeg") no-repeat;
+  background-size: cover;
+  font-family: OpenSans-Light;
+}
+
+.myBox, #quotes {
+  width: 700px;
+  height: 350px;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background: #FFF;
+  /*background: -moz-linear-gradient(#DDD, #FFF, #DDD); */
+  margin: auto;
+  position: absolute;
+  border: 0px solid #CCC;
+  -webkit-box-shadow: 1px 1px 4px 0px #AAA;
+  -moz-box-shadow: 1px 1px 4px 0px #AAA;
+  box-shadow: 1px 1px 4px 0px #AAA;
+}
+
+#quotes p {
+  top: 50%;
+  position: relative;
+  color: rgb(232, 102, 102);
+  font-family: LemonMilk;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 42px;
+  text-transform: UPPERCASE;
+  text-align: center;
+  text-shadow: 1px 2px 5px #AAAAAA;
+  transform: translateY(-100%);
+}
+
+#quotes p::before {
+  content: open-quote;
+  font-size: 72px;
+  vertical-align: -20px;
+}
+
+#quotes p span::after {
+  content: close-quote;
+  font-size: 72px;
+  vertical-align: -20px;
+}
+
+#quotes p span {
+  color: #555555;
+}
+
+#skills {
+  
+}
+
+nav {
+	margin: 0px;
+	width: 100%;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+nav ul {
+	float: right;
+	list-style: none;
+	margin: 0px 0px;
+}
+
+#logo {
+	color: #CCC;
+  font-family: LemonMilk;
+	font-size: 22px;
+	font-weight: 900;
+	letter-spacing: 2px;
+  float: left;
+}
+
+#logo span {
+  color: rgb(232, 102, 102);
+}
+
+nav ul li {
+  float:left;
+  margin: 0px 10px;
+
+}
+nav ul li a {
+  font-weight: NORMAL;
+  color: #EEE;
+  padding: 5px 2px;
+  text-decoration: none;
+  text-transform: UPPERCASE;
+  display: block;
+}
+
+nav ul li a:hover {
+  border-bottom: 3px solid rgb(232, 102, 102);
+}
+
+#container {
+  height: 85%;
+  background: #FFF;
+}
+
+#avatar {
+  top: 50%;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+  margin: auto 20px;
+  border: 1px solid #AAA;
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px 0px #CCC;
+  transform: translateY(-50%);
+}
+
+#avatar img {
+  display: block;
+  width: 100%;
+  border-radius: 50%;
+}
+
+#footer {
+  height: 15%;
+  background: rgb(232, 102, 102);
+}
