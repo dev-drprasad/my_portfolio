@@ -1,83 +1,83 @@
 @font-face {
-  font-family: OpenSans-Light;
-  src: url(../fonts/OpenSans-Light.ttf);
+	font-family: OpenSans-Light;
+	src: url(../fonts/OpenSans-Light.ttf);
 }
 
 @font-face {
-  font-family: LemonMilk;
-  src: url(../fonts/LemonMilk.otf);
+	font-family: LemonMilk;
+	src: url(../fonts/LemonMilk.otf);
 }
 
 @font-face {
-  font-family: OpenSans-ExtraBold;
-  src: url(../fonts/OpenSans-ExtraBold.ttf);
+	font-family: OpenSans-ExtraBold;
+	src: url(../fonts/OpenSans-ExtraBold.ttf);
 }
 
 @font-face {
-  font-family: Social-Shapes;
-  src: url(../fonts/social_shapes.ttf);
+	font-family: Social-Shapes;
+	src: url(../fonts/social_shapes.ttf);
 }
 
 body {
-  background: url("../images/bg.jpeg") no-repeat;
-  background-size: cover;
-  font-family: OpenSans-Light;
-  box-sizing: border-box;
+	background: url("../images/bg.jpeg") no-repeat;
+	background-size: cover;
+	font-family: OpenSans-Light;
+	box-sizing: border-box;
 }
 
 .myBox, #quotes {
-  width: 700px;
-  height: 350px;
-  top: 0; left: 0; bottom: 0; right: 0;
-  background: #FFF;
-  /*background: -moz-linear-gradient(#DDD, #FFF, #DDD); */
-  margin: auto;
-  position: absolute;
-  border: 0px solid #CCC;
-  -webkit-box-shadow: 1px 1px 4px 0px #AAA;
-  -moz-box-shadow: 1px 1px 4px 0px #AAA;
-  box-shadow: 1px 1px 4px 0px #AAA;
+	width: 700px;
+	height: 350px;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: #FFF;
+	/*background: -moz-linear-gradient(#DDD, #FFF, #DDD); */
+	margin: auto;
+	position: absolute;
+	border: 0px solid #CCC;
+	-webkit-box-shadow: 1px 1px 4px 0px #AAA;
+	-moz-box-shadow: 1px 1px 4px 0px #AAA;
+	box-shadow: 1px 1px 4px 0px #AAA;
 }
 
 #quotes p {
-  top: 50%;
-  position: relative;
-  color: rgb(232, 102, 102);
-  font-family: LemonMilk;
-  font-size: 40px;
-  font-weight: 900;
-  line-height: 42px;
-  text-transform: UPPERCASE;
-  text-align: center;
-  text-shadow: 1px 2px 5px #AAAAAA;
-  transform: translateY(-100%);
+	top: 50%;
+	position: relative;
+	color: rgb(232, 102, 102);
+	font-family: LemonMilk;
+	font-size: 40px;
+	font-weight: 900;
+	line-height: 42px;
+	text-transform: UPPERCASE;
+	text-align: center;
+	text-shadow: 1px 2px 5px #AAAAAA;
+	transform: translateY(-100%);
 }
 
 #quotes p::before {
-  content: open-quote;
-  font-size: 72px;
-  vertical-align: -20px;
+	content: open-quote;
+	font-size: 72px;
+	vertical-align: -20px;
 }
 
 #quotes p span::after {
-  content: close-quote;
-  font-size: 72px;
-  vertical-align: -20px;
+	content: close-quote;
+	font-size: 72px;
+	vertical-align: -20px;
 }
 
 #quotes p span {
-  color: #555555;
+	color: #555555;
 }
 
 #skills {
-  
+	
 }
 
 nav {
 	margin: 0px;
 	width: 100%;
-  font-size: 12px;
-  font-weight: normal;
+	font-size: 12px;
+	font-weight: normal;
 }
 
 nav ul {
@@ -88,83 +88,132 @@ nav ul {
 
 #logo {
 	color: #CCC;
-  font-family: OpenSans-Light;
+	font-family: OpenSans-Light;
 	font-size: 24px;
 	font-weight: 900;
 	letter-spacing: 2px;
-  text-shadow: 0px 1px 2px 3px;
-  float: left;
+	text-shadow: 0px 1px 2px 3px;
+	float: left;
 }
 
 #logo span {
-  color: rgb(232, 102, 102);
+	color: rgb(232, 102, 102);
 }
 
 nav ul li {
-  float:left;
-  margin: 0px 10px;
+	float:left;
+	margin: 0px 10px;
 
 }
 nav ul li a {
-  font-weight: NORMAL;
-  color: #eeeeee;
-  padding: 5px 2px;
-  text-decoration: none;
-  text-transform: UPPERCASE;
-  display: block;
+	font-weight: NORMAL;
+	color: #eeeeee;
+	padding: 5px 2px;
+	text-decoration: none;
+	text-transform: UPPERCASE;
+	display: block;
 }
 
 nav ul li a:hover {
-  color: #ffffff;
-  border-bottom: 3px solid rgb(232, 102, 102);
+	color: #ffffff;
+	border-bottom: 3px solid rgb(232, 102, 102);
 }
 
 #container {
-  height: 85%;
-  background: #FFF;
+	height: 85%;
+	background: #FFF;
 }
 
 #avatar {
-  top: 50%;
-  position: relative;
-  width: 200px;
-  height: 200px;
-  padding: 5px;
-  margin: auto 20px;
-  border: 1px solid #AAA;
-  border-radius: 50%;
-  box-shadow: 1px 1px 3px 0px #CCC;
-  transform: translateY(-50%);
+	top: 50%;
+	float: left;
+	position: relative;
+	width: 200px;
+	height: 200px;
+	padding: 5px;
+	margin: auto 20px;
+	border: 1px solid #AAA;
+	border-radius: 50%;
+	box-shadow: 1px 1px 3px 0px #CCC;
+	transform: translateY(-50%);
 }
 
 #avatar img {
-  display: block;
-  width: 100%;
-  border-radius: 50%;
+	display: block;
+	width: 100%;
+	border-radius: 50%;
+}
+
+#main {
+	float: right;
+}
+
+#hello {
+	position: relative;
+	width: 70px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	color: #ffffff;
+	font-family: OpenSans-ExtraBold;
+	font-size: 12px;
+	text-transform: uppercase;
+	background-color: rgb(232, 102, 102);
+}
+
+#hello::before {
+	content: " ";
+	position: absolute;
+	top: 22px;
+	left: 7px;
+	width: 0px;
+	height: 0px;
+	border: 4px solid;
+	border-color: rgb(232, 102, 102) transparent transparent rgb(232, 102, 102);
+
+}
+
+#intro {
+	color: #aaaaaa;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+#intro > span {
+	color: #555555;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 0px 10px;
+}
+
+#caption {
+	color: #7a7a7a;
+	font-family: OpenSans-ExtraBold;
+	font-size: 14px;
 }
 
 #footer {
-  height: 15%;
-  background: rgb(232, 102, 102);
+	height: 15%;
+	background: rgb(232, 102, 102);
 }
 
 #social_icons {
-  width: 300px;
-  height: 100%;
-  font-family: Social-Shapes;
-  list-style: none;
-  padding-left: 0px;
-  padding-top: 10px;
-  margin: 0px auto;
+	width: 300px;
+	height: 100%;
+	font-family: Social-Shapes;
+	list-style: none;
+	padding-left: 0px;
+	padding-top: 10px;
+	margin: 0px auto;
 }
 
 #social_icons li {
-  display: inline-block;
-  margin: 0px 20px;
+	display: inline-block;
+	margin: 0px 20px;
 }
 
 #social_icons li a {
-  color: #EEEEEE;
-  font-size: 40px;
-  text-decoration: none;
+	color: #EEEEEE;
+	font-size: 40px;
+	text-decoration: none;
 }
