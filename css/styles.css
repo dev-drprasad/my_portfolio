@@ -34,9 +34,9 @@ body {
 	margin: auto;
 	position: absolute;
 	border: 0px solid #CCC;
-	-webkit-box-shadow: 1px 1px 4px 0px #AAA;
-	-moz-box-shadow: 1px 1px 4px 0px #AAA;
-	box-shadow: 1px 1px 4px 0px #AAA;
+	-webkit-box-shadow: 1px 1px 5px 0px #aaaaaa;
+	-moz-box-shadow: 1px 1px 5px 0px #aaaaaa;
+	box-shadow: 0px 0px 5px 0px #aaaaaa;
 }
 
 #quotes p {
@@ -188,7 +188,7 @@ nav ul li a:hover {
 
 #caption {
 	color: #7a7a7a;
-	font-family: OpenSans-ExtraBold;
+	font-weight: bold;
 	font-size: 14px;
 }
 
