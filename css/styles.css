@@ -18,6 +18,11 @@
 	src: url(../fonts/social_shapes.ttf);
 }
 
+@font-face {
+	font-family: OpenSans-Semibold;
+	src: url(../fonts/OpenSans-Semibold.ttf);
+}
+
 body {
 	background: url("../images/bg.jpeg") no-repeat;
 	background-size: cover;
@@ -156,7 +161,7 @@ nav ul li a:hover {
 	text-align: center;
 	color: #ffffff;
 	font-family: OpenSans-ExtraBold;
-	font-size: 12px;
+	font-size: 11px;
 	text-transform: uppercase;
 	background-color: rgb(232, 102, 102);
 }
@@ -181,6 +186,7 @@ nav ul li a:hover {
 
 #intro > span {
 	color: #555555;
+	font-family: OpenSans-Semibold;
 	font-size: 1.2em;
 	font-weight: bold;
 	padding: 0px 10px;
@@ -188,7 +194,8 @@ nav ul li a:hover {
 
 #caption {
 	color: #7a7a7a;
-	font-weight: bold;
+	font-family: OpenSans-Semibold;
+	/*font-weight: bold;*/
 	font-size: 14px;
 }
 
