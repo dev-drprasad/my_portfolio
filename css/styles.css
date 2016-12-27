@@ -4,6 +4,11 @@
 }
 
 @font-face {
+	font-family: OpenSans;
+	src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
 	font-family: LemonMilk;
 	src: url(../fonts/LemonMilk.otf);
 }
@@ -21,6 +26,11 @@
 @font-face {
 	font-family: OpenSans-Semibold;
 	src: url(../fonts/OpenSans-Semibold.ttf);
+}
+
+@font-face {
+	font-family: OpenSans-Bold;
+	src: url(../fonts/OpenSans-Bold.ttf);
 }
 
 body {
@@ -111,8 +121,9 @@ nav ul li {
 
 }
 nav ul li a {
-	font-weight: NORMAL;
-	color: #eeeeee;
+	font-family: OpenSans;
+	/*font-weight: NORMAL;*/
+	color: #bbbbbb;
 	padding: 5px 2px;
 	text-decoration: none;
 	text-transform: UPPERCASE;
@@ -120,7 +131,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-	color: #ffffff;
+	color: #eeeeee;
 	border-bottom: 3px solid rgb(232, 102, 102);
 }
 
@@ -150,10 +161,18 @@ nav ul li a:hover {
 }
 
 #main {
-	float: right;
+	margin-left: 280px;
+	margin-right: 20px;
+	padding: 5px;
+
+}
+
+.clear {
+	clear: both;
 }
 
 #hello {
+	top: 50%;
 	position: relative;
 	width: 70px;
 	height: 22px;
@@ -164,6 +183,7 @@ nav ul li a:hover {
 	font-size: 11px;
 	text-transform: uppercase;
 	background-color: rgb(232, 102, 102);
+	margin: 10px 0px;
 }
 
 #hello::before {
@@ -179,15 +199,15 @@ nav ul li a:hover {
 }
 
 #intro {
-	color: #aaaaaa;
-	font-size: 32px;
-	font-weight: bold;
+	color: #7a7a7a;
+	font-size: 30px;
+	/*font-weight: bold;*/
 }
 
 #intro > span {
-	color: #555555;
-	font-family: OpenSans-Semibold;
-	font-size: 1.2em;
+	color: #5b5b5b;
+	font-family: OpenSans-Bold;
+	font-size: 1.1em;
 	font-weight: bold;
 	padding: 0px 10px;
 }
@@ -197,6 +217,32 @@ nav ul li a:hover {
 	font-family: OpenSans-Semibold;
 	/*font-weight: bold;*/
 	font-size: 14px;
+}
+
+hr {
+	border: 0px;
+	border-top: 1px solid #aaaaaa;
+}
+.head	{
+	width: 35%;
+	color: #5b5b5b;
+	font-family: OpenSans-ExtraBold;
+	font-size: 12px;
+	/*font-weight: bold;*/
+	padding: 3px 0px;
+	text-transform: uppercase;
+}
+
+.data	{
+	color: #7a7a7a;
+	font-family: OpenSans-Semibold;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.mail {
+	color: #7a7a7a;
+	text-decoration: none;
 }
 
 #footer {
