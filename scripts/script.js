@@ -1,6 +1,6 @@
 
 
-showDivs(1);
+showDivs(2);
 function showDivs(n)
 {
 	var n;
@@ -18,4 +18,3 @@ function showDivs(n)
 		quotes.style.display = "none";
 	}
 }
-	

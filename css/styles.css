@@ -164,7 +164,6 @@ nav ul li a:hover {
 	margin-left: 280px;
 	margin-right: 20px;
 	padding: 5px;
-
 }
 
 .clear {
@@ -221,8 +220,9 @@ nav ul li a:hover {
 
 hr {
 	border: 0px;
-	border-top: 1px solid #aaaaaa;
+	border-top: 2px solid #aaaaaa;
 }
+
 .head	{
 	width: 35%;
 	color: #5b5b5b;
@@ -245,12 +245,63 @@ hr {
 	text-decoration: none;
 }
 
-#footer {
+.skills {
+	color: #5b5b5b;
+	font-family: OpenSans-Bold;
+	font-size: 18px;
+}
+
+p.rating {
+	width: 8px;
+	height: 8px;
+	display: inline-block;
+	background-color: rgb(232, 102, 102);
+	border-radius: 50%;
+	border: 1px solid rgb(232, 102, 102);
+	margin: 0px 3px;
+}
+
+.no_rating {
+	width: 8px;
+	height: 8px;
+	display: inline-block;
+	/*background-color: rgb(232, 102, 102);*/
+	border-radius: 50%;
+	border: 1px solid rgb(232, 102, 102);
+	margin: 0px 3px;
+}
+
+div.div-skills {
+	width: 90%;
+	height: 85%;
+	margin: 0px auto;
+}
+
+table.table-skills {
+	width: 100%;
+}
+
+.table-caption {
+	color: #5b5b5b;
+	font-family: OpenSans-Bold;
+	font-size: 28px;
+	text-align: left;
+}
+
+td.skills {
+	text-align: left;
+}
+
+td.rating {
+	text-align: right;
+}
+
+div.footer {
 	height: 15%;
 	background: rgb(232, 102, 102);
 }
 
-#social_icons {
+ul.social_icons {
 	width: 300px;
 	height: 100%;
 	font-family: Social-Shapes;
@@ -260,12 +311,12 @@ hr {
 	margin: 0px auto;
 }
 
-#social_icons li {
+ul.social_icons li {
 	display: inline-block;
 	margin: 0px 20px;
 }
 
-#social_icons li a {
+ul.social_icons li a {
 	color: #EEEEEE;
 	font-size: 40px;
 	text-decoration: none;
