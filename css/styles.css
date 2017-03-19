@@ -220,7 +220,8 @@ nav ul li a:hover {
 
 hr {
 	border: 0px;
-	border-top: 2px solid #aaaaaa;
+	border-top: 1px solid #aaaaaa;
+	margin: 4px 0px 8px 0px;
 }
 
 .head	{
@@ -247,8 +248,8 @@ hr {
 
 .skills {
 	color: #5b5b5b;
-	font-family: OpenSans-Bold;
-	font-size: 18px;
+	font-family: OpenSans;
+	font-size: 16px;
 }
 
 p.rating {
@@ -279,13 +280,24 @@ div.div-skills {
 
 table.table-skills {
 	width: 100%;
+	margin: 10px;
 }
 
 .table-caption {
-	color: #5b5b5b;
-	font-family: OpenSans-Bold;
-	font-size: 28px;
 	text-align: left;
+	padding: 4px 0px;
+	border-bottom: 2px solid rgb(232, 102, 102);
+}
+
+.table-caption > span {
+	color: rgb(255, 255, 255);
+	background-color: rgb(232, 102, 102);
+	font-family: OpenSans-SemiBold;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: left;
+	text-transform: uppercase;
+	padding: 4px 10px;
 }
 
 td.skills {

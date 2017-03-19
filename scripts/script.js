@@ -1,6 +1,6 @@
 
 
-showDivs(2);
+showDivs(1);
 function showDivs(n)
 {
 	var n;
