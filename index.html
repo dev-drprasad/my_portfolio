@@ -1,14 +1,17 @@
 <!DOCTYPE>
 <html>
   <head>
-    <title>D REDDY PRASAD | PortFolio</title>
+    <title>REDDY PRASAD DASARI | PortFolio</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
   </head>
   <body>
     <nav>
-      <ul id="logo">
+      <!-- <ul id="logo">
         <li><span> Reddy </span> Prasad </li>
-      </ul>
+      </ul> -->
+      <div id="logoImage">
+        <img src="images/reddy-prasad-sm.png">
+      </div>
       <ul>
         <li><a href="#" onclick="showDivs(1)">About</a></li>
         <li><a href="#" onclick="showDivs(2)">PortFolio</a></li>
@@ -22,7 +25,7 @@
     <div id="quotes"><p>I will solve your problem<br><span>And you will pay me.</span></p></div>
     <div class="myBox">
       <div id="container">
-        <div id="avatar"><img src="vishnu_image_square.png" alt="Reddy Prasad Picture"></div>
+        <div id="avatar"><img src="images/ash-pika.jpg" alt="Reddy Prasad Photo"></div>
         <div id="main">
           <div id="hello">Hello</div>
           <div id="intro">I'm<span>Reddy Prasad</span></div>
@@ -122,7 +125,14 @@
     <div class="myBox">3</div>
     <div class="myBox">2</div>
     <div class="myBox" id="skills">3</div>
-    <div class="myBox">2</div>
+    <div class="myBox" id="contactForm">
+      <form>
+        <input type="text" name="name" placeholder="your name" required />
+        <input type="email" name="email" placeholder="your email" required />
+        <textarea placeholder="your message"></textarea>
+        <button type="submit" name="submit">submit</button>
+      </form>
+    </div>
     <div class="myBox">3</div>
   </body>
   <script type="text/javascript" src="scripts/script.js"></script>

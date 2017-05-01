@@ -111,6 +111,15 @@ nav ul {
 	float: left;
 }
 
+#logoImage {
+	display: inline-block;
+}
+
+#logoImage img {
+	width: 240px;
+	margin-left: 25px;
+}
+
 #logo span {
 	color: rgb(232, 102, 102);
 }
