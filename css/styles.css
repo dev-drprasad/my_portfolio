@@ -285,11 +285,14 @@ div.div-skills {
 	width: 90%;
 	height: 85%;
 	margin: 0px auto;
+	padding: 10px 20px;
 }
 
 table.table-skills {
 	width: 100%;
-	margin: 10px;
+	/*margin: 10px;*/
+	/*padding: 10px;*/
+	box-sizing: border-box;
 }
 
 .table-caption {
@@ -341,4 +344,38 @@ ul.social_icons li a {
 	color: #EEEEEE;
 	font-size: 40px;
 	text-decoration: none;
+}
+
+div#contactForm {
+	padding: 10px 20px;
+	text-align: center;
+}
+
+div#contactForm > form {
+	padding: 10px 0px;
+}
+
+input[type=text], input[type=email], textarea, button {
+	font-family: OpenSans;
+	width: 60%;
+	padding: 8px 15px;
+	border: 1px solid #ccc;
+	margin: 5px 0px;
+	font-size: 16px;
+}
+
+input[type=text]:focus, input[type=email]:focus, textarea:focus {
+	outline: none;
+	border: 1px solid rgb(232, 102, 102);
+	/*box-shadow: 0 0 5px 1px #e8e8e8;*/
+}
+
+textarea {
+	height: 120px;
+}
+
+button {
+	color: #fff;
+	border: 0px;
+	background-color: rgb(232, 102, 102);
 }
