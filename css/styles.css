@@ -351,6 +351,11 @@ div#contactForm {
 	text-align: center;
 }
 
+div#experience {
+	padding: 10px 20px;
+	text-align: center;
+}
+
 div#contactForm > form {
 	padding: 10px 0px;
 }
@@ -378,4 +383,86 @@ button {
 	color: #fff;
 	border: 0px;
 	background-color: rgb(232, 102, 102);
+}
+
+.exp-headers {
+	color: rgb(232, 102, 102);
+	/*text-transform: uppercase;*/
+	font-weight: bold;
+}
+
+
+
+.carouselbox {
+  font-family: helvetica,sans-serif;
+  font-size: 14px;
+  /*width: 100px;*/
+  position: relative;
+  margin: 3px;
+/*  border: 1px solid #ccc;
+  box-shadow: 2px 2px 10px #ccc;*/
+  overflow: hidden;
+}
+.content {
+  margin: 0;
+  padding: 0;
+}
+.content > li {
+  /*font-size: 100px;*/
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  text-align: center;
+}
+
+div#expDiv {
+	display: flex;
+	align-items: center;
+}
+
+.expTable td {
+	padding: 3px 10px;
+	vertical-align: top;
+}
+
+td.expContent {
+	color: #5d5d5d;
+	font-family: OpenSans;
+    font-size: 16px;
+}
+
+.carouselbox {
+	display: inline-block;
+	width: 88%;
+}
+.active {
+  height: 250px;
+}
+.active ol > li {
+  position: absolute;
+  top: 300px;
+  height: 250px;
+}
+.active ol > li.current {
+  top: 10px;
+}
+
+.buttons {
+	width: 6%;
+	display: inline-block;
+}
+
+.offscreen {
+	display: block;
+	font-size: 24px;
+	width: 30px;
+	height: 30px;
+	line-height: 26px;
+	background-color: rgb(232, 102, 102);
+	color: #fff;
+	font-weight: bold;
+	border-radius: 15px;
+	text-align: center;
+	vertical-align: middle;
 }
