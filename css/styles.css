@@ -24,6 +24,11 @@
 }
 
 @font-face {
+	font-family: Social-Types;
+	src: url(../fonts/SocialType.ttf);
+}
+
+@font-face {
 	font-family: OpenSans-Semibold;
 	src: url(../fonts/OpenSans-Semibold.ttf);
 }
@@ -326,9 +331,9 @@ div.footer {
 }
 
 ul.social_icons {
-	width: 300px;
+	width: 320px;
 	height: 100%;
-	font-family: Social-Shapes;
+	font-family: Social-Types;
 	list-style: none;
 	padding-left: 0px;
 	padding-top: 10px;
@@ -337,6 +342,7 @@ ul.social_icons {
 
 ul.social_icons li {
 	display: inline-block;
+	/*line-height: 40px;*/
 	margin: 0px 20px;
 }
 
@@ -344,6 +350,10 @@ ul.social_icons li a {
 	color: #EEEEEE;
 	font-size: 40px;
 	text-decoration: none;
+	/*padding: 5px 4px 4px 4px;*/
+	/*border: 1px solid #eee;*/
+	/*border-radius: 20px;*/
+	/*box-shadow: 0 0 1px #eee;*/
 }
 
 div#contactForm {
