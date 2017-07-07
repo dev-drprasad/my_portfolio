@@ -217,12 +217,14 @@ nav ul li a:hover {
 	/*font-weight: bold;*/
 }
 
-#intro > span {
+#intro > h3 {
+	display: inline-block;
 	color: #5b5b5b;
 	font-family: OpenSans-Bold;
 	font-size: 1.1em;
 	font-weight: bold;
-	padding: 0px 10px;
+	padding: 0px 5px;
+	margin: 0px 0px;
 }
 
 #caption {
