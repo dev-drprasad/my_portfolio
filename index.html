@@ -226,14 +226,40 @@
             <th colspan="5"></th>
           </tr>
         </tbody></table>
-      <form>
+      <form onsubmit="onFormSubmit(event);">
         <input id="name" type="text" name="name" placeholder="Name" required="" autofocus="" />
         <input type="email" name="email" placeholder="Email" required />
-        <textarea placeholder="Message"></textarea>
+        <textarea name="message" placeholder="Message"></textarea>
         <button type="submit" name="submit">submit</button>
       </form>
     </div>
     
   </body>
   <script type="text/javascript" src="scripts/script.js"></script>
+  <script>
+    function onFormSubmit(event) {
+      event.preventDefault();
+
+      var serForm = {};
+      var form = document.querySelector('form');
+      for (var i=0; i < form.elements.length; i++) {
+        serForm[form.elements[i].name] = form.elements[i].value;
+      }
+      
+
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          alert('Your message has been sent');
+        }
+      };
+      xhttp.open(
+        "GET",
+        `http://blog.reddyprasad.me/contact/?name=${serForm.name}&email=${serForm.email}&message=${serForm.message}`,
+        true
+      );
+
+      xhttp.send();
+    }
+  </script>
 </html>
