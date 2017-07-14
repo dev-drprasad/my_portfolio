@@ -302,6 +302,10 @@ table.table-skills {
 	box-sizing: border-box;
 }
 
+table.table-skills td {
+	padding: 5px 0px;
+}
+
 .table-caption {
 	text-align: left;
 	padding: 4px 0px;
