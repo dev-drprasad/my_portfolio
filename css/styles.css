@@ -352,6 +352,11 @@ ul.social_icons li {
 	margin: 0px 20px;
 }
 
+ul.social_icons li img {
+	width: 28px;
+}
+
+
 ul.social_icons li a {
 	color: #EEEEEE;
 	font-size: 40px;
