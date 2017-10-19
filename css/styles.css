@@ -377,6 +377,11 @@ div#experience {
 	text-align: center;
 }
 
+div#booksDiv {
+	padding: 10px 20px;
+	text-align: center;
+}
+
 div#contactForm > form {
 	padding: 10px 0px;
 }
@@ -442,6 +447,14 @@ div#expDiv {
 	align-items: center;
 }
 
+div#bookList {
+
+}
+
+.bookItem > a > img {
+	width: 150px;
+}
+
 .expTable td {
 	padding: 3px 10px;
 	vertical-align: top;
@@ -486,4 +499,5 @@ td.expContent {
 	border-radius: 15px;
 	text-align: center;
 	vertical-align: middle;
+	cursor: pointer;
 }
