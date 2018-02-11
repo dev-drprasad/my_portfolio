@@ -1,17 +1,11 @@
 <!DOCTYPE>
 <html>
   <head>
-    <title>REDDY PRASAD D | PortFolio</title>
+    <title>REDDY PRASAD</title>
     <meta charset="utf-8">
     <meta name="keywords" content="dasari reddy prasad, reddy prasad, D REDDY PRASAD">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-5597521142912214",
-        enable_page_level_ads: true
-      });
-    </script>
   </head>
   <body>
     <nav>
@@ -19,12 +13,13 @@
         <li><span> Reddy </span> Prasad </li>
       </ul> -->
       <div id="logoImage">
-        <img src="images/reddy-prasad-sm.png" alt="reddy-prasad-logo">
+        <img src="images/reddy-prasad-logo.png" alt="reddy-prasad-logo">
       </div>
       <ul>
         <li><a href="#" onclick="showDivs(1)">About</a></li>
         <li><a href="#" onclick="showDivs(2)">Skills</a></li>
         <li><a href="#" onclick="showDivs(3)">Experience</a></li>
+        <li><a href="#" onclick="showDivs(4)">Readings</a></li>
         <li><a href="http://blog.reddyprasad.me/">Blog</a></li>
         <li><a href="files/resume.pdf" target="_blank">Resume</a></li>
         <li><a href="#" onclick="showDivs(6)">Contact</a></li>
@@ -33,11 +28,11 @@
     <div id="quotes"><p>I will solve your problem<br><span>And you will pay me.</span></p></div>
     <div class="myBox">
       <div id="container">
-        <div id="avatar"><img src="images/my-image.jpg" alt="Reddy Prasad Photo"></div>
+        <div id="avatar"><img src="images/reddy-prasad.jpg" alt="Reddy Prasad Photo"></div>
         <div id="main">
           <div id="hello">Hello</div>
           <div id="intro">I'm <h3>Reddy Prasad</h3></div>
-          <div id="caption">pythonista, computer nerd</div>
+          <div id="caption">full stack developer</div>
           <hr/>
           <div id="details">
             <table>
@@ -56,7 +51,7 @@
                 </tr>
                 <tr>
                   <td class="head">E-Mail</td>
-                  <td class="data"><a class="mail" href="mailto:me@reddyprasad.me" target="_top">me@reddyprasad.me</td>
+                  <td class="data"><a class="mail" href="mailto:dev.drprasad@aim.com" target="_top">dev.drprasad@aim.com</td>
                 </tr>
                 <tr>
                   <td class="head">Phone</td>
@@ -78,6 +73,7 @@
               <img src="images/stackoverflow-icon.png">
             </a>
           </li>
+          <li><a href="https://in.pinterest.com/dev_drprasad/" title="Pinterest" target="_blank">E</a></li>
         </ul>
       </div>
     </div>
@@ -140,6 +136,7 @@
               <img src="images/stackoverflow-icon.png">
             </a>
           </li>
+          <li><a href="https://in.pinterest.com/dev_drprasad/" title="Pinterest" target="_blank">E</a></li>
         </ul>
       </div>
     </div>
@@ -230,8 +227,30 @@
       </div>
       </div>
     </div>
-    <div class="myBox">2</div>
-    <div class="myBox">3</div>
+    <div class="myBox" id="booksDiv">
+      <table class="table-skills">
+          <caption class="table-caption"><span>My Readings</span></caption>
+          <colgroup>
+            <col span="1" style="width: 20%;">
+            <col span="1" style="width: 20%;">
+            <col span="1" style="width: 10%;">
+            <col span="1" style="width: 20%;">
+            <col span="1" style="width: 20%;">
+          </colgroup>
+          <tbody>
+            <tr>
+              <th colspan="5"></th>
+            </tr>
+          </tbody>
+      </table>
+      <div id="bookList">
+        <div class="bookItem">
+          <a href="https://en.wikipedia.org/wiki/One_Indian_Girl">
+            <img src="images/books/one-indian-girl.jpg" alt="One Indian Girl">
+          </a>
+        </div>
+      </div>
+    </div>
     <div class="myBox" id="contactForm">
       <table class="table-skills">
           <caption class="table-caption"><span>Contact me</span></caption>
@@ -253,7 +272,7 @@
         <button type="submit" name="submit">submit</button>
       </form>
     </div>
-    
+
   </body>
   <script type="text/javascript" src="scripts/script.js"></script>
   <script>
@@ -265,7 +284,7 @@
       for (var i=0; i < form.elements.length; i++) {
         serForm[form.elements[i].name] = form.elements[i].value;
       }
-      
+
 
       var xhttp = new XMLHttpRequest();
       xhttp.onreadystatechange = function() {
